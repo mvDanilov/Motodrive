@@ -8,7 +8,7 @@ public abstract class MotoWorld implements Cloneable {
     protected types_of_motorcycle types_of_motorcycle;
 
 
-    public enum type{
+    public enum Type{
         HARLEY_DAVIDSON,Kawasaki,Yamaha
 
     }

@@ -5,7 +5,7 @@ public class Bike extends MotoWorld{
     private int oxidation;
     private int horsepower;
     private int temperature;
-    private type type;
+    private Type type;
 
     @Override
     public boolean equals(Object o) {

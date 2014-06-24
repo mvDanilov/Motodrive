@@ -50,8 +50,8 @@ public class MotorcycleParking implements Cloneable {
         MotoWorlds.remove(index);
     }
 
-    public void assembled_from_parts(MotoWorld... moto_world) {
-        for (MotoWorld moto_world1 : moto_world)
+    public void assembled_from_parts(MotoWorld... MotoWorld) {
+        for (MotoWorld moto_world1 : MotoWorld)
             MotoWorlds.add(moto_world1);
     }
 
