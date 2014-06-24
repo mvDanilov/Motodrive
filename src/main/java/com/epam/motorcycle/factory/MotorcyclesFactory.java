@@ -60,7 +60,7 @@ public class MotorcyclesFactory {
         int STATE = r.nextInt(motoManager.getIntProperty("STATE"));
         int POWER = r.nextInt(motoManager.getIntProperty("POWER"));
         int price = r.nextInt(75);
-        Moped moped = new Moped(VOLTAGE,STATE,POWER,price);
+        Moped moped = new Moped(VOLTAGE,STATE,POWER,perice);
         return moped;
     }
 
