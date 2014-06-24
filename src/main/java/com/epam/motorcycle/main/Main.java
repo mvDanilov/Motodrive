@@ -2,7 +2,6 @@ package com.epam.motorcycle.main;
 
 
 import com.epam.motorcycle.entity.Moped;
-import com.epam.motorcycle.entity.MotoWorld;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,7 +13,7 @@ public class Main  {
     public static void main(String[] args) throws IOException{
 
 
-        Moped moped = new Moped(MotoWorld.Sparepart.ARMOTIZATOR, 30, 20, 50, 100000);
+        Moped moped = new Moped(30, 20, 50, 100000);
         LOGGER.info("qweqeqwe{}",moped);
 
 

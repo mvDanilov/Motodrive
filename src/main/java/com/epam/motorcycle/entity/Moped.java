@@ -9,7 +9,7 @@ public class Moped extends MotoWorld {
     private int power;
 
 
-    public Moped(Sparepart sparepart, int voltage, int state, int power, int price) {
+    public Moped(int voltage, int state, int power, int price) {
         super(sparepart,price);
         this.power = power;
         this.state = state;
